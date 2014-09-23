@@ -7,9 +7,6 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
-/**
-* @version $Revision$ $Date$
-*/
 public class Reflection {
 
 	public static <T> T annotation(Set<Annotation> annotations, Class<T> clazz) {
