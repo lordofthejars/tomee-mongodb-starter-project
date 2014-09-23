@@ -4,9 +4,6 @@ package org.superbiz.persistence.util;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedElement;
 
-/**
-* @version $Revision$ $Date$
-*/
 public class Parameter implements AnnotatedElement {
 
     private final Annotation[] annotations;
